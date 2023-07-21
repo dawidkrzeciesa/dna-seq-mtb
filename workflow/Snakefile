@@ -4,7 +4,7 @@ include: "rules/common.smk"
 module dna_seq_varlociraptor:
     snakefile:
         github(
-            "snakemake-workflows/dna-seq-varlociraptor",
+            "https://github.com/dawidkrzeciesa/dna-seq-varlociraptor/tree/ccs",
             path="workflow/Snakefile",
             tag="v4.0.1",
         )

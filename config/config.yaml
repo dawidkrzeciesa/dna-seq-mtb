@@ -51,6 +51,6 @@ params:
     call: ""
     # Add extra arguments for varlociraptor preprocess. By default, we limit the depth to 200.
     # Increase this value for panel sequencing!
-    preprocess: "--max-depth 200"
+    preprocess: "--max-depth 350"
   freebayes:
     min_alternate_fraction: 0.01 # Reduce for calling variants with lower VAFs
