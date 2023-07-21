@@ -4,9 +4,9 @@ include: "rules/common.smk"
 module dna_seq_varlociraptor:
     snakefile:
         github(
-            "https://github.com/dawidkrzeciesa/dna-seq-varlociraptor/tree/ccs",
+            "dawidkrzeciesa/dna-seq-varlociraptor",
             path="workflow/Snakefile",
-            tag="v4.0.1",
+            branch="ccs"
         )
     config:
         config
