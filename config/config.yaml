@@ -1,6 +1,6 @@
-samples: config/samples.tsv
+samples: ~/Dokumente/ccs_config/dna-seq-mtb/samples.tsv
 
-units: config/units.tsv
+units: ~/Dokumente/ccs_config/dna-seq-mtb/units.tsv
 
 # Optional BED file with target regions
 # uncomment to use
